@@ -1,0 +1,62 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "EP_341_Looper",
+	"origin" : "EP_341_Looper",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"live.button" : 0.0,
+				"live.button[1]" : 0.0,
+				"live.dial" : 0.0,
+				"live.gain~" : -11.562379837036133,
+				"live.gain~[10]" : 0.0,
+				"live.gain~[11]" : 0.0,
+				"live.gain~[12]" : 0.0,
+				"live.gain~[13]" : -34.4375,
+				"live.gain~[2]" : 0.0,
+				"live.gain~[3]" : 0.0,
+				"live.gain~[4]" : 0.0,
+				"live.gain~[5]" : -19.828125,
+				"live.gain~[6]" : -17.361961364746094,
+				"live.gain~[7]" : -0.816437721252441,
+				"live.gain~[8]" : -19.828125,
+				"live.gain~[9]" : -14.1875,
+				"blob" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "ValhallaSupermassive",
+							"origin" : "ValhallaSupermassive.auinfo",
+							"type" : "AudioUnit",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "ValhallaSupermassive.auinfo",
+								"plugindisplayname" : "ValhallaSupermassive",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 2105306725,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "920.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwaDklaOAAm..............fD....v7C.......PL9.H......HiORlTI....y7C........M.........TyO.B......17C.......vM.........fyO.B......4........XvG+.H.....F.hOLNC+..fAg7C......XfH8nhpqB..FLB.......fAj........XPI........FXB.....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRLWSgMGD.HQX0YFdOEg.IX0PxDB.B...77CdswFH1Ulbyk1at0iHw3BLh.RYtM1ajklam0iHUQkQsfiH+3CH7XUXrgVXrwVXSUGbkIWagM2boYWYf.Ga0cVZtYUYxMWZu4VOhDiKv3BLh.BbxU1bkQmSg0VY8HBSuMGcSEVciUlbh.RSogWOh.iK0.yLv.CLvHCL4fCL3LSMh.BQkwVX4MUdtMVOh.iKxTiHfPTYrEVdN8Fck0iHv3RM4HCLv.CLvbiMxjyL4PSMh.BQkwVX48USy0iHv3RL1XiM1XiM2DiMyLyMx.CMh.BQkwVX4cUXxAWOh.iK1PSN4jSN4biMwTCNwPiLwHBHCwVYgIWOhDiKvHBHFUVYjIVXisVOh.iK2TiHfPTYtMWZzkWOhDiKvHBHWkFYzgVOhDiKvHBHL81cCUGc8HBLt.iHffTZmg1P0QWOh.iKxDyMwbSL2DyL2.SN3LSLxHBHM8FYREFck0iHv3RL3HiL2XCLw.SMwLyLvTyMh.RSuQFQkAGcn0iHv3RMh.RSuQVY8HBLt.CNyLyLyLyL0fSL1fiMvHiHfHUYyUlb1UFYwziHv3BLh.hTkMWYxYWYjISOh.iKvHBHRU1bkImckQ1L8HBLt.iHfHUYyUlb1UFYzziHv3BLh.RaogGSuM1Z8HBLh.RcocUZjQGZ8HBNx.iHfTWZHUVZmgFc8HBMyTiHu3C.XUkazkFcrUFY.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.BAzP.ODPDAPQ.VD.GA7Q.lDvJAzR.xLvO........BD..........X...................CfD"
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

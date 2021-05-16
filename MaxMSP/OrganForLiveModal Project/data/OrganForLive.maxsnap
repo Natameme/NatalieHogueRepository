@@ -1,0 +1,47 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "OrganForLive",
+	"origin" : "OrganForLive",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"live.gain~[1]" : -10.419676921828064,
+				"blob" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "MConvolutionEZ",
+							"origin" : "MConvolutionEZ.vstinfo",
+							"type" : "VST",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "MConvolutionEZ.vstinfo",
+								"plugindisplayname" : "MConvolutionEZ",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "225.CMlaKA....fQPMDZ....AzzPkoG...P...............................................Po3ocSNGrBBBDD.F9tOECiWKc0BxCtJjnQPRAQcnalNJKMtKnqhzSezgft9+c4ONcomgYZXTYzRLvSf.oqMMJcmDmrsqivzDm3xLid1vSVkQm+XjrVktaDbkX.Bt+gEJlj3EtxR9kTiZpGDAdsbUMBYFscvvLMLlqqdxTiDEHb31wqp2TnDEqDHTVsbp37d1T+5aVhaBQ39uC2EEEFtE8Sb9fulsSw"
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

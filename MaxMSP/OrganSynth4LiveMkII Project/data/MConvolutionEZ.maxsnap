@@ -1,0 +1,23 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "MConvolutionEZ",
+	"origin" : "MConvolutionEZ.vstinfo",
+	"type" : "VST",
+	"subtype" : "MidiEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "MConvolutionEZ.vstinfo",
+		"plugindisplayname" : "MConvolutionEZ",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : 1296262522,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"sliderorder" : [  ],
+		"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1 ],
+		"blob" : "361.CMlaKA....fQPMDZ....AzzPkoG...P..............................................DPK3ocaQF0RBDDEE9c+ULbE5oxwcUJk1YEZSCAWTZwB5so0qtSNNyxbuqX8qOTRHrd86bNvgyIYzgcVwdLPFuSAQc5BBzU5WYbaTPCu9lAvnzVI4Yd2dusgMd232HjYiaCIZqfHPz9WhSLVTAKILPxMNMKeDosruVNOrQ6DEe53JjLjXQv+AVxm45c0VjjS2U2XIT7LR0dGgxBVjgkn0nuRW6o6IwBcvPUhKc1QaV+2pj0Pre2BMWcpoYdGG7VKFnwN86VbkB5BhmVNsv7EFqfaGFec+nHPL64hZqgYLbTIRACiGbIMVA86Ahb8gYSl+f0Wt8HUA8hAwKmmz6FLHNtOjljiLFnzjWMq3p7zjBeSnDEKB3ZikwvoEuKHSSjmsH+ISqD4+d.TZquAtDLl8C"
+	}
+
+}
