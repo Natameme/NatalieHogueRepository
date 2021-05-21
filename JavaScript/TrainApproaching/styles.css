@@ -1,0 +1,40 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  width: 50%;
+  border: 3px rgba(84,150,89,1 );
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  margin: auto;
+  width: auto;
+  height: auto;
+  border: 3px rgba(85,145,85,1 );
+  padding: 10px;
+  background-color: rgba(255,255,255,1 );
+  text-align: center;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  margin: auto;
+  width: auto;
+  height: auto;
+  border: 20px black;
+  padding: 5px;
+  background-color: rgba(255,255,255,1 );
+  text-align: justify;
+}
+
+body {
+  background-color: rgba(84,150,89,1 );
+}
+#mapid {  align-self: auto;
+          height: 400px;
+          width: auto;}
+p {
+  font-family: Helvetica, sans-serif;
+}
