@@ -336,7 +336,7 @@ async function getTrain(ulat,ulon){
           para.appendChild(node);
           var element = document.getElementById("board");
           element.appendChild(para)
-          
+
           //Conditional Logic to Test if a Train is Nearby
             if(Tstatus[0].Distance < 101){
               document.getElementById('stat').innerHTML = 'Train Approaching ' + Tstatus[0].ID +' '+ Tstatus[0].Distance;
@@ -349,3 +349,4 @@ async function getTrain(ulat,ulon){
   }
 }
 getuloc(getTrain);
+setInterval(function(){getTrain()}, 10000);
