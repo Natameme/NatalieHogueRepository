@@ -12,12 +12,23 @@ bot.on('ready', () => {
 });
 
 bot.on('message', msg => {
+//PING PONG
   if (msg.content === 'ping') {
     msg.reply('pong');
-
+//DATE
   } else if(msg.content === '!date') {
     const mdy = getMDY();
     msg.reply("Today's Date is " + mdy);
+//Time
+  } else if(msg.content === '!time') {
+    var d = new date();
+    msg.reply("The Current Time is" + date.getHours + ":" + date.getMinutes + ":" + date.getSeconds)
+//TRASH
+  } else if(msg.content === '!trash') {
+//SWEEP
+  } else if(msg.content === '!sweep') {
+
+
   } else if (msg.content.startsWith('!kick')) {
     if (msg.mentions.users.size) {
       const taggedUser = msg.mentions.users.first();

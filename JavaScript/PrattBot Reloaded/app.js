@@ -1,3 +1,4 @@
+//THIS CODE IS NOT DOING ANYTHING, IS MERELY A PLACEHOLDER FOR THE FUNCTIONS BEING PERFORMED IN INDEX.JS
 function checkWeek(w){
   var week = '';
   if (w >= 1 && w <=7){
