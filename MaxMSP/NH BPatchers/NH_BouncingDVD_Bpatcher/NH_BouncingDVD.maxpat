@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 182.0, 104.0, 666.0, 764.0 ],
+		"rect" : [ 745.0, 135.0, 666.0, 764.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -39,6 +39,21 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 324.0, 493.0, 150.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.458333333333258, 383.0, 437.375, 20.0 ],
+					"text" : "left.                                right.                                    top.                            bottom.             ",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-86",
@@ -238,7 +253,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 192.0, 148.0, 307.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -150.916666666666742, -35.0, 187.0, 35.0 ],
+					"presentation_rect" : [ 127.083333333333258, 344.0, 187.0, 35.0 ],
 					"text" : "Bouncing DVD",
 					"textcolor" : [ 0.945098039215686, 0.92156862745098, 0.92156862745098, 1.0 ]
 				}
@@ -255,7 +270,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 177.0, 133.0, 307.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -154.916666666666742, -35.0, 187.0, 35.0 ],
+					"presentation_rect" : [ 123.083333333333258, 344.0, 187.0, 35.0 ],
 					"text" : "Bouncing DVD"
 				}
 
@@ -268,7 +283,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 89.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.708333333333258, -39.5, 54.0, 20.0 ],
+					"presentation_rect" : [ 372.708333333333258, 339.5, 54.0, 20.0 ],
 					"text" : "Y Speed"
 				}
 
@@ -281,7 +296,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 345.0, 98.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.583333333333258, -39.5, 55.0, 20.0 ],
+					"presentation_rect" : [ 314.583333333333258, 339.5, 55.0, 20.0 ],
 					"text" : "X Speed"
 				}
 
@@ -1051,7 +1066,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 492.5, 102.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.708333333333258, -17.5, 54.0, 22.0 ]
+					"presentation_rect" : [ 372.708333333333258, 361.5, 54.0, 22.0 ]
 				}
 
 			}
@@ -1125,7 +1140,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 365.5, 102.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.583333333333258, -17.5, 55.0, 22.0 ]
+					"presentation_rect" : [ 314.583333333333258, 361.5, 55.0, 22.0 ]
 				}
 
 			}
@@ -1257,7 +1272,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 241.0, 209.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -263.541666666666742, -39.5, 44.0, 44.0 ]
+					"presentation_rect" : [ 14.458333333333258, 339.5, 44.0, 44.0 ]
 				}
 
 			}
@@ -1283,7 +1298,7 @@
 					"outlettype" : [ "list", "list", "int", "" ],
 					"patching_rect" : [ 170.5, 508.0, 418.5, 311.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -263.541666666666742, -365.0, 412.25, 311.0 ]
+					"presentation_rect" : [ 14.458333333333258, 14.0, 412.25, 311.0 ]
 				}
 
 			}
@@ -1299,7 +1314,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 365.0, 546.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -277.666666666666742, -379.0, 440.5, 403.0 ],
+					"presentation_rect" : [ 0.333333333333258, 0.0, 440.5, 403.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2090,7 +2105,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dvd.png",
-				"bootpath" : "~/Documents/GitHub/NatalieHogueRepository/MaxMSP/NH BPatchers/Development/Bouncing Ball ",
+				"bootpath" : "~/Documents/GitHub/NatalieHogueRepository/MaxMSP/NH BPatchers/NH_BouncingDVD_Bpatcher",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
