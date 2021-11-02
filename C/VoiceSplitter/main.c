@@ -2,7 +2,7 @@
 
 /* MIDI VOICE SPLITTER
 
-by Natalie Hogue, with credit to Weiqi Kong for the idea
+by Natalie Hogue & Weiqi Kong
 
 dynamically allocates each voice of a midi chord to a different channel, (up to 16 voices)
 
@@ -31,7 +31,7 @@ int main(){
 
   int pitchArrSize = (sizeof(noteOn.note) / sizeof(int)/2);
 
-  int l;
+  int l = 0;
   int j = 0;
   while (l <= pitchArrSize){
     int maxim;
@@ -40,6 +40,7 @@ int main(){
     noteOn.channel[l][1] = noteOn.note[l][1];
     delNote(noteOn.note[l][0], maxim, pitchArrSize);
     delNote(noteOn.note[l][1], maxim, pitchArrSize);
+    l++;
   }
 
   for(int k = 0; k < pitchArrSize; k++){
