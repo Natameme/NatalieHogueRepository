@@ -26,11 +26,11 @@
 //------------------------------------------------------------------------------------
 //Constants
 #define kAudioInputDeviceIndex 0  //Built-in input
-#define kAudioOutputDeviceIndex 0 //Built-in output
+#define kAudioOutputDeviceIndex 3 //Built-in output
 #define kNumFramesPerBuffer 256
 #define kSamplingRate 44100.0     //Sample Rate
 #define kNumChannels 2            //Number of Audio Channels
-#define kMIDIInputDeviceID 0      //MIDI input index
+#define kMIDIInputDeviceID 0     //MIDI input index
 #define kMaxMIDIEvents 1          //MIDI output index
 #define kDefaultFrequency 110.0   //defines center frequency
 #define kNumVoices 16             //number of voices
@@ -373,7 +373,7 @@ void process(float *buffer, unsigned long numFrames, void *userData){
     //MIDI DEBUGGING
     ////////////////
     //DEBUGGING check if midi is working
-    printf("MIDI:");
+  /*  printf("MIDI:");
       for(int i = 0; i < kNumVoices; i++){
         printf("[%i, %i] ", bag[i][0], bag[i][1]);
     }
@@ -389,7 +389,7 @@ void process(float *buffer, unsigned long numFrames, void *userData){
       for(int i = 0; i < kNumVoices; i++){
         printf("[%f] ", sineWave->amplitude[i]);
     }
-    printf("\n");
+    printf("\n");*/
 
   }//end of input stream
 }//end of function
