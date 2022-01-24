@@ -43,12 +43,12 @@ For Mac
   
   - make sure checkbox for "Device is Online" is ticked
  
-using your DAWs external instrument capabilities you can set the MIDI output to the IAC driver bus, and likewise set the Organ's input ID to the IAC bus (usually shows up as 0).
+  using your DAWs external instrument capabilities you can set the MIDI output to the IAC driver bus, and likewise set the Organ's input ID to the IAC bus (usually shows up as 0).
 
 For Windows
 
-    MIDI utilities such as LoopMIDI exist for windows, but I have personally not tested them. 
-    As long as portMIDI recognizes it as a device you're golden, though your mileage may vary.
+  MIDI utilities such as LoopMIDI exist for windows, but I have personally not tested them. 
+  As long as portMIDI recognizes it as a device you're golden, though your mileage may vary.
 
 ### Audio Routing
 
