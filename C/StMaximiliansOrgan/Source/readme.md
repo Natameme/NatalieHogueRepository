@@ -21,14 +21,10 @@ The code will run through and midi setting, ideally it should return without an 
 
     - Look through the list of audio and midi device and take the respective ID numbers for your desired devices
 
-go into StMaximilliansOrganMK1.c and in the 
-Constants Section (line 14) reinstantiate
-"kAudioDeviceOutputIndex" and "kMIDIInputDeviceID" 
-with the correct indexes corresponding to the device you wish to user
+go into StMaximilliansOrganMK1.c and in the Constants Section (line 14) reinstantiate"kAudioDeviceOutputIndex" and "kMIDIInputDeviceID" with the correct indexes corresponding to the device you wish to user
 
 ### Step 3
-
-    - Once you compile and run the code with no error you should be good to start making sound! hit a note on your keyboard and try it out.
+Once you compile and run the code with no error you should be good to start making sound! hit a note on your keyboard and try it out.
 
 
 ## use with a DAW
@@ -46,10 +42,8 @@ For Mac
   #### IAC Driver Settings
   
   - make sure checkbox for "Device is Online" is ticked
-
-  using your DAWs external instrument capabilities you 
-  can set the MIDI output to the IAC driver bus, and 
-  likewise set the Organ's input ID to the IAC bus (usually shows up as 0).
+ 
+using your DAWs external instrument capabilities you can set the MIDI output to the IAC driver bus, and likewise set the Organ's input ID to the IAC bus (usually shows up as 0).
 
 For Windows
 
@@ -57,9 +51,9 @@ For Windows
 
 ### Audio Routing
 
-  IMPORTANT: It is almost definitely a good idea to do troubleshoot this process with your volume down.
+    IMPORTANT: It is almost definitely a good idea to do troubleshoot this process with your volume down.
 
-  in order to route audio back into your DAW use your favorite internal audio routing utility such as Soundflower, Blackhole or Loopback. Just something to route audio back into your DAW. Crucially you want to make sure you avoid feedback issues in this process, you should be fine as long as ONLY your DAW input is set to your routing utility, and the output to your speakers. If the incoming signal is too hot you can use MIDI CC automation in your daw, either to change the Main volume (CC7) or any of the stop volume CCs which are listed as follows:
+in order to route audio back into your DAW use your favorite internal audio routing utility such as Soundflower, Blackhole or Loopback. Just something to route audio back into your DAW. Crucially you want to make sure you avoid feedback issues in this process, you should be fine as long as ONLY your DAW input is set to your routing utility, and the output to your speakers. If the incoming signal is too hot you can use MIDI CC automation in your daw, either to change the Main volume (CC7) or any of the stop volume CCs which are listed as follows:
 
     Bourdon 8     : CC 12
     Bourdon 4     : CC 13
@@ -76,4 +70,4 @@ For Windows
 
 ### Notes on Use
 
-  What this method does in principle is use a virtual MIDI device to run St Maximilian's Organ as an external MIDI instrument, the same as if it were a hardware device. You may have to recompile the program a few times to get your input and output settings configured (see beginning of this document), but I hope that this method is fairly straightforward until I can get a proper VST/AU wrapper running with this instrument. If you are a developer and interested in helping me build that VST wrapper feel free to reach out to me at mach6mix@gmail.com
+What this method does in principle is use a virtual MIDI device to run St Maximilian's Organ as an external MIDI instrument, the same as if it were a hardware device. You may have to recompile the program a few times to get your input and output settings configured (see beginning of this document), but I hope that this method is fairly straightforward until I can get a proper VST/AU wrapper running with this instrument. If you are a developer and interested in helping me build that VST wrapper feel free to reach out to me at mach6mix@gmail.com
