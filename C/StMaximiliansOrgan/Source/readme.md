@@ -21,7 +21,10 @@ The code will run through and midi setting, ideally it should return without an 
 
     - Look through the list of audio and midi device and take the respective ID numbers for your desired devices
 
-    - go into StMaximilliansOrganMK1.c and in the Constants Section (line 14) reinstantiate "kAudioDeviceOutputIndex" and "kMIDIInputDeviceID" with the correct indexes corresponding to the device you wish to user
+go into StMaximilliansOrganMK1.c and in the 
+Constants Section (line 14) reinstantiate
+"kAudioDeviceOutputIndex" and "kMIDIInputDeviceID" 
+with the correct indexes corresponding to the device you wish to user
 
 ### Step 3
 
