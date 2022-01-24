@@ -47,7 +47,8 @@ using your DAWs external instrument capabilities you can set the MIDI output to 
 
 For Windows
 
-  MIDI utilities such as LoopMIDI exist for windows, but I have personally not tested them. As long as portMIDI recognizes it as a device you're golden, though your mileage may vary.
+    MIDI utilities such as LoopMIDI exist for windows, but I have personally not tested them. 
+    As long as portMIDI recognizes it as a device you're golden, though your mileage may vary.
 
 ### Audio Routing
 
