@@ -41,9 +41,12 @@ For Mac
   - Click on the IAC Driver DEVICES
 
   #### IAC Driver Settings
-    - make sure checkbox for "Device is Online" is ticked
+  
+  - make sure checkbox for "Device is Online" is ticked
 
-      using your DAWs external instrument capabilities you can set the MIDI output to the IAC driver bus, and likewise set the Organ's input ID to the IAC bus (usually shows up as 0).
+  using your DAWs external instrument capabilities you 
+  can set the MIDI output to the IAC driver bus, and 
+  ikewise set the Organ's input ID to the IAC bus (usually shows up as 0).
 
 For Windows
 
