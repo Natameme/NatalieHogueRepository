@@ -49,7 +49,7 @@ For Mac
 
   using your DAWs external instrument capabilities you 
   can set the MIDI output to the IAC driver bus, and 
-  ikewise set the Organ's input ID to the IAC bus (usually shows up as 0).
+  likewise set the Organ's input ID to the IAC bus (usually shows up as 0).
 
 For Windows
 
