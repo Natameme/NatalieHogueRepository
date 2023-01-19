@@ -3,7 +3,7 @@ This is a placeholder for a forthcoming piece by Natalie Hogue and Caleb Walker,
 
 Setup Info (IF YOU ARE NOT CALEB WALKER STOP READING THESE INSTRUCTIONS THEY ARENT FOR YOU)
 
-Step 0. Install Blackhole audio utility at this link
+Step 0. Install Blackhole audio utility at this link https://existential.audio/blackhole/
 
 Step 1. Open Splice Piece Test and make sure the FFT subpatchers are intact
 
